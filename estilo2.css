@@ -1,0 +1,130 @@
+#div-negro {
+    background-color: black;
+    margin-top: 30px;
+    border: solid;
+    border-top: 1px;
+    border-bottom: 30px;
+    border-right: 20px;
+    border-left: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width:300px;
+    height:300px;
+    margin-right: auto;
+}
+#uno{
+font-family: fantasy;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    border: solid;
+    border-color: pink;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+#uno-contact{
+  
+    height: 70px;
+    line-height: 70px;
+    width: 70px;
+    background-color: salmon;
+    color: white;
+   
+   text-align: center;
+   
+    
+}
+#uno-careers{
+    height: 70px;
+    width: 70px;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    
+    
+    
+}
+#uno-about{
+    height: 70px;
+    width: 70px;
+    background-color: springgreen;
+    margin-left: auto;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    
+}
+#dos{
+    font-family: fantasy;
+    flex-direction: column;
+    border: solid;
+    border-color: goldenrod;
+    border-width: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#dos-contact{
+    text-align: center;
+    background-color: salmon;
+    color: white;
+}
+#dos-careers{
+    
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+}
+#dos-about{
+    background-color: springgreen;
+    
+    color: white;
+    text-align: center;
+    
+}
+#tres{
+    border: solid;
+    border-color: goldenrod;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+#tres-contact{
+    font-family: fantasy;
+    height: 70px;
+    width: 70px;
+    background-color: salmon;
+    color: white;
+    line-height: 70px;
+   text-align: center;
+   
+    
+}
+#tres-careers{
+    height: 70px;
+    width: 70px;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    
+    
+}
+#tres-about{
+    height: 70px;
+    width: 70px;
+    background-color: springgreen;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
