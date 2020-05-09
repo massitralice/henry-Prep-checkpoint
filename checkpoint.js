@@ -112,6 +112,7 @@ function crearClasePersona() {
       // el metodo addFriend recibe un string nombre y un entero edad y debe agregar un objeto:
       // { nombre: nombre, edad: edad} al arreglo de amigos de la persona.
       // no debe retornar nada.
+     var x = new Persona.amigos(nombre, edad)
      
       
     }
@@ -126,17 +127,14 @@ function crearClasePersona() {
       // de la persona.
       // Ej:
       // persona.getFriends() // retorna ['toni', 'Leo', 'Manu']
-      var arrayAmigos = []
-      for(var i = 0; i < this.amigos.length; i++){
-        arrayAmigos.push(this.amigos)
-      }
+     
     }
 
     getHobbies() {
       // Escribe una función que retorne un arreglo con los hobbies de la persona
       // Ej:
       // persona.getHobbies() // retorna ['correr', 'dormir', 'nadar']
-      
+      return this.hobbies
     }
 
     getPromedioEdad() {
